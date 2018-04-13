@@ -1,0 +1,21 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.Assets.at(path="/public", file="addProduct.html")
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/v", file: Asset)
+
+# User Controller
+POST /api/user/signup               controllers.userController.userSignUp
+POST /api/user/login				controllers.userController.userLogin
+
+#Product Controller
+POST /api/products/add				controllers.productController.addNewProduct
+ 
+#Category,Company and occasion Controller
+GET /api/category/all				controllers.productController.getAllCategories
+GET /api/company/all				controllers.productController.getAllCompanies
+GET /api/occasion/all				controllers.productController.getAllOccasions

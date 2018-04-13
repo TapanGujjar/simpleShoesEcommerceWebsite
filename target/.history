@@ -1,0 +1,10 @@
+eclipse
+run
+update
+run
+eclipse
+run
+update
+sbt run
+run'
+run

@@ -1,0 +1,19 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /media/silverstar/T/javaProject/shoesstoreonline/target/scala-2.12/shoesstoreonline_2.12-1.0-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/silverstar/T/javaProject/shoesstoreonline/conf/application.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models/userModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/silverstar/T/javaProject/shoesstoreonline/app/models/userModel.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/silverstar/T/javaProject/shoesstoreonline/conf/routes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/userController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/silverstar/T/javaProject/shoesstoreonline/app/controllers/userController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/user.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/silverstar/T/javaProject/shoesstoreonline/app/controllers/user.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/silverstar/T/javaProject/shoesstoreonline/conf/logback.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/HomeController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/silverstar/T/javaProject/shoesstoreonline/app/controllers/HomeController.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	controllers/Inject.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /media/silverstar/T/javaProject/shoesstoreonline/app/controllers/Inject.java[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
