@@ -14,6 +14,9 @@ POST /api/user/login				controllers.userController.userLogin
 
 #Product Controller
 POST /api/products/add				controllers.productController.addNewProduct
+GET /api/product/search				controllers.productController.searchForProduct
+GET /api/product/sizes 				controllers.productController.getAllShoeSizes
+GET /api/product/all				controllers.productController.getAllProduct
  
 #Category,Company and occasion Controller
 GET /api/category/all				controllers.productController.getAllCategories

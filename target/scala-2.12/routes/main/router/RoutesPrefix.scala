@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/silverstar/javaProject/shoesstoreonline/conf/routes
-// @DATE:Fri Apr 13 02:36:42 EDT 2018
+// @DATE:Thu Apr 19 03:20:11 EDT 2018
 
 
 package router {

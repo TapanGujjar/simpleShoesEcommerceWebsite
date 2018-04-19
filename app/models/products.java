@@ -1,13 +1,21 @@
 package models;
 
+import java.util.ArrayList;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ForeignKey;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.Transient;
 
 import io.ebean.Finder;
 import io.ebean.Model;
+import io.ebean.annotation.View;
 
 @Entity
 public class products extends Model {
@@ -22,23 +30,27 @@ public class products extends Model {
 	private char productType;
 	@Column(name="productMaterial")
 	private String productMaterial;
-	@PrimaryKeyJoinColumn
-	@Column(name="productCategory")
+	@ManyToOne
+	@JoinColumn(name="productCategory")
 	private categories category;
-	@PrimaryKeyJoinColumn
+	@ManyToOne
+	@JoinColumn(name="productOccasion")
 	@Column(name="productOccasion")
 	private occasion occasion;
 	@Column(name="productSolHeight")
 	private String productSolHeight;
 	@Column(name="productSolMaterial")
 	private String productSolMaterial;
-	@PrimaryKeyJoinColumn
+	@ManyToOne
+	@JoinColumn(name="productManufacturers")
 	@Column(name="productManufacturers")
 	private company manufacturers;
 
 	public static Finder<Integer,products> productFinder=new Finder<>(products.class);
-
 	
+    @OneToMany(cascade = CascadeType.ALL)
+    public ArrayList<productColor> productColorList = new ArrayList<productColor>();
+
 	
 	public products( String productName, String productDesc, char productType, String productMaterial,
 			categories category, models.occasion occasion, String productSolHeight, String productSolMaterial,

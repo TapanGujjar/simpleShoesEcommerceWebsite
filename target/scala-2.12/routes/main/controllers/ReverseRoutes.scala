@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/silverstar/javaProject/shoesstoreonline/conf/routes
-// @DATE:Fri Apr 13 02:36:42 EDT 2018
+// @DATE:Thu Apr 19 03:20:11 EDT 2018
 
 import play.api.mvc.Call
 
@@ -39,28 +39,46 @@ package controllers {
     }
 
   
-    // @LINE:19
-    def getAllCategories(): Call = {
+    // @LINE:17
+    def searchForProduct(): Call = {
       
-      Call("GET", _prefix + { _defaultPrefix } + "api/category/all")
-    }
-  
-    // @LINE:21
-    def getAllOccasions(): Call = {
-      
-      Call("GET", _prefix + { _defaultPrefix } + "api/occasion/all")
-    }
-  
-    // @LINE:20
-    def getAllCompanies(): Call = {
-      
-      Call("GET", _prefix + { _defaultPrefix } + "api/company/all")
+      Call("GET", _prefix + { _defaultPrefix } + "api/product/search")
     }
   
     // @LINE:16
     def addNewProduct(): Call = {
       
       Call("POST", _prefix + { _defaultPrefix } + "api/products/add")
+    }
+  
+    // @LINE:22
+    def getAllCategories(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "api/category/all")
+    }
+  
+    // @LINE:19
+    def getAllProduct(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "api/product/all")
+    }
+  
+    // @LINE:18
+    def getAllShoeSizes(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "api/product/sizes")
+    }
+  
+    // @LINE:24
+    def getAllOccasions(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "api/occasion/all")
+    }
+  
+    // @LINE:23
+    def getAllCompanies(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "api/company/all")
     }
   
   }

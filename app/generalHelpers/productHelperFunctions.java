@@ -1,5 +1,6 @@
 package generalHelpers;
 
+import io.ebean.ExpressionList;
 import models.categories;
 import models.company;
 import models.occasion;
@@ -22,10 +23,16 @@ public class productHelperFunctions {
 		return occ;
 	}
 	
+	public static products getProductFromCategory(int categoryID) {
+		ExpressionList<products> product=products.productFinder.query().where().like("productCategory",Integer.toString(categoryID));
+		
+		return null;
+		
+	}
+	
 	
 	public static products insertProduct(products newProduct) {
 		newProduct.save();
-		System.out.println("NewProdut="+newProduct.getProductID());
 		return newProduct;
 	}
 

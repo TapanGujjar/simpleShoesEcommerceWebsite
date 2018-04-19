@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-
+import models.products;
 import io.ebean.Finder;
 import io.ebean.Model;
 

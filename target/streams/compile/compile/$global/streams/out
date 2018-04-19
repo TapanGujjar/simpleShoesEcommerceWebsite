@@ -1,2 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m/home/silverstar/javaProject/shoesstoreonline/app/models/categories.java:11:1: package com.sun.xml.internal.bind.v2.schemagen.xmlschema does not exist[0m
-[0m[[0m[31merror[0m] [0m[0mimport com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;[0m
+[0m[[0m[31merror[0m] [0m[0m/home/silverstar/javaProject/shoesstoreonline/app/controllers/productController.java:58:1: ';' expected[0m
+[0m[[0m[31merror[0m] [0m[0m		System.out.println("map Size="+map.size())[0m

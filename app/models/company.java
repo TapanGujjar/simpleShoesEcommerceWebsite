@@ -1,8 +1,12 @@
 package models;
 
+import java.util.ArrayList;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 import io.ebean.Finder;
 import io.ebean.Model;
@@ -36,6 +40,8 @@ public class company extends Model {
 		this.companyName = companyName;
 	}
 
+    @OneToMany(cascade = CascadeType.ALL)
+    public ArrayList<products> companyProductList = new ArrayList<products>();
 	
 
 }

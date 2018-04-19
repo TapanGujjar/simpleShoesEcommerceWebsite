@@ -21,17 +21,38 @@ create table occasion (
   constraint pk_occasion primary key (occasionid)
 );
 
+create table productcolor (
+  productcolorid                integer auto_increment not null,
+  productid                     integer,
+  productimageurl               varchar(255),
+  price                         integer not null,
+  constraint pk_productcolor primary key (productcolorid)
+);
+
+create table productcolorjunction (
+  productcolorid                integer,
+  colorname                     varchar(255)
+);
+
+create table productcolorsize (
+  productsizeid                 integer auto_increment not null,
+  productcolorid                integer,
+  size                          integer not null,
+  quantity                      integer not null,
+  constraint pk_productcolorsize primary key (productsizeid)
+);
+
 create table products (
   productid                     integer auto_increment not null,
   productname                   varchar(255),
   productdesc                   varchar(255),
   producttype                   varchar(255),
   productmaterial               varchar(255),
-  category_category_id          integer,
-  occasion_occasion_id          integer,
+  productcategory               integer,
+  productoccasion               integer,
   productsolheight              varchar(255),
   productsolmaterial            varchar(255),
-  manufacturers_company_id      integer,
+  productmanufacturers          integer,
   constraint pk_products primary key (productid)
 );
 
@@ -45,32 +66,56 @@ create table users (
   constraint pk_users primary key (userid)
 );
 
-alter table products add constraint fk_products_category_category_id foreign key (category_category_id) references categories (categoryid) on delete restrict on update restrict;
-create index ix_products_category_category_id on products (category_category_id);
+alter table productcolor add constraint fk_productcolor_productid foreign key (productid) references products (productid) on delete restrict on update restrict;
+create index ix_productcolor_productid on productcolor (productid);
 
-alter table products add constraint fk_products_occasion_occasion_id foreign key (occasion_occasion_id) references occasion (occasionid) on delete restrict on update restrict;
-create index ix_products_occasion_occasion_id on products (occasion_occasion_id);
+alter table productcolorjunction add constraint fk_productcolorjunction_productcolorid foreign key (productcolorid) references productcolor (productcolorid) on delete restrict on update restrict;
+create index ix_productcolorjunction_productcolorid on productcolorjunction (productcolorid);
 
-alter table products add constraint fk_products_manufacturers_company_id foreign key (manufacturers_company_id) references company (companyid) on delete restrict on update restrict;
-create index ix_products_manufacturers_company_id on products (manufacturers_company_id);
+alter table productcolorsize add constraint fk_productcolorsize_productcolorid foreign key (productcolorid) references productcolor (productcolorid) on delete restrict on update restrict;
+create index ix_productcolorsize_productcolorid on productcolorsize (productcolorid);
+
+alter table products add constraint fk_products_productcategory foreign key (productcategory) references categories (categoryid) on delete restrict on update restrict;
+create index ix_products_productcategory on products (productcategory);
+
+alter table products add constraint fk_products_productoccasion foreign key (productoccasion) references occasion (occasionid) on delete restrict on update restrict;
+create index ix_products_productoccasion on products (productoccasion);
+
+alter table products add constraint fk_products_productmanufacturers foreign key (productmanufacturers) references company (companyid) on delete restrict on update restrict;
+create index ix_products_productmanufacturers on products (productmanufacturers);
 
 
 # --- !Downs
 
-alter table products drop foreign key fk_products_category_category_id;
-drop index ix_products_category_category_id on products;
+alter table productcolor drop foreign key fk_productcolor_productid;
+drop index ix_productcolor_productid on productcolor;
 
-alter table products drop foreign key fk_products_occasion_occasion_id;
-drop index ix_products_occasion_occasion_id on products;
+alter table productcolorjunction drop foreign key fk_productcolorjunction_productcolorid;
+drop index ix_productcolorjunction_productcolorid on productcolorjunction;
 
-alter table products drop foreign key fk_products_manufacturers_company_id;
-drop index ix_products_manufacturers_company_id on products;
+alter table productcolorsize drop foreign key fk_productcolorsize_productcolorid;
+drop index ix_productcolorsize_productcolorid on productcolorsize;
+
+alter table products drop foreign key fk_products_productcategory;
+drop index ix_products_productcategory on products;
+
+alter table products drop foreign key fk_products_productoccasion;
+drop index ix_products_productoccasion on products;
+
+alter table products drop foreign key fk_products_productmanufacturers;
+drop index ix_products_productmanufacturers on products;
 
 drop table if exists categories;
 
 drop table if exists company;
 
 drop table if exists occasion;
+
+drop table if exists productcolor;
+
+drop table if exists productcolorjunction;
+
+drop table if exists productcolorsize;
 
 drop table if exists products;
 

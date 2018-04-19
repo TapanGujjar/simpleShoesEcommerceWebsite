@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/silverstar/javaProject/shoesstoreonline/conf/routes
-// @DATE:Fri Apr 13 02:36:42 EDT 2018
+// @DATE:Thu Apr 19 03:20:11 EDT 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -49,32 +49,12 @@ package controllers.javascript {
     }
 
   
-    // @LINE:19
-    def getAllCategories: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.productController.getAllCategories",
+    // @LINE:17
+    def searchForProduct: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.searchForProduct",
       """
         function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/category/all"})
-        }
-      """
-    )
-  
-    // @LINE:21
-    def getAllOccasions: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.productController.getAllOccasions",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/occasion/all"})
-        }
-      """
-    )
-  
-    // @LINE:20
-    def getAllCompanies: JavaScriptReverseRoute = JavaScriptReverseRoute(
-      "controllers.productController.getAllCompanies",
-      """
-        function() {
-          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/company/all"})
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/product/search"})
         }
       """
     )
@@ -85,6 +65,56 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "api/products/add"})
+        }
+      """
+    )
+  
+    // @LINE:22
+    def getAllCategories: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.getAllCategories",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/category/all"})
+        }
+      """
+    )
+  
+    // @LINE:19
+    def getAllProduct: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.getAllProduct",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/product/all"})
+        }
+      """
+    )
+  
+    // @LINE:18
+    def getAllShoeSizes: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.getAllShoeSizes",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/product/sizes"})
+        }
+      """
+    )
+  
+    // @LINE:24
+    def getAllOccasions: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.getAllOccasions",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/occasion/all"})
+        }
+      """
+    )
+  
+    // @LINE:23
+    def getAllCompanies: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.getAllCompanies",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/company/all"})
         }
       """
     )
