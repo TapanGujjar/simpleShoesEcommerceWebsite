@@ -17,7 +17,10 @@ POST /api/products/add				controllers.productController.addNewProduct
 GET /api/product/search				controllers.productController.searchForProduct
 GET /api/product/sizes 				controllers.productController.getAllShoeSizes
 GET /api/product/all				controllers.productController.getAllProduct
- 
+GET /api/product/color				controllers.productController.getProductColorByID
+GET /api/product/addToCart          controllers.productController.addToCart
+GET /api/product/getMyCart          controllers.productController.getmyCart 
+
 #Category,Company and occasion Controller
 GET /api/category/all				controllers.productController.getAllCategories
 GET /api/company/all				controllers.productController.getAllCompanies

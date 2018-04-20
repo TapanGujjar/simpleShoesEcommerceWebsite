@@ -1,5 +1,6 @@
 package models;
 
+import java.util.List;
 import java.util.ArrayList;
 
 import javax.persistence.CascadeType;
@@ -36,9 +37,9 @@ public class productColor extends Model {
 	public static Finder<Integer,productColor> productColorFinder =new Finder<>(productColor.class);
 
 	
-	@OneToMany(cascade = CascadeType.ALL)
-	public ArrayList<productColorSize> productColorSizeList=new ArrayList<>();
-	
+//	@OneToMany(cascade = CascadeType.ALL)
+//	public List<productColorSize> productColorSizeList=new ArrayList<productColorSize>();
+//	
 	
 	public productColor(products product, String productImageUrl, int price) {
 		super();

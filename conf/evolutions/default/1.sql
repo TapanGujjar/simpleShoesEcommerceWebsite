@@ -3,6 +3,14 @@
 
 # --- !Ups
 
+create table cart (
+  cartid                        integer auto_increment not null,
+  userid                        integer,
+  productsizeid                 integer,
+  value                         integer not null,
+  constraint pk_cart primary key (cartid)
+);
+
 create table categories (
   categoryid                    integer auto_increment not null,
   categoryname                  varchar(255),
@@ -66,6 +74,12 @@ create table users (
   constraint pk_users primary key (userid)
 );
 
+alter table cart add constraint fk_cart_userid foreign key (userid) references users (userid) on delete restrict on update restrict;
+create index ix_cart_userid on cart (userid);
+
+alter table cart add constraint fk_cart_productsizeid foreign key (productsizeid) references productcolorsize (productsizeid) on delete restrict on update restrict;
+create index ix_cart_productsizeid on cart (productsizeid);
+
 alter table productcolor add constraint fk_productcolor_productid foreign key (productid) references products (productid) on delete restrict on update restrict;
 create index ix_productcolor_productid on productcolor (productid);
 
@@ -87,6 +101,12 @@ create index ix_products_productmanufacturers on products (productmanufacturers)
 
 # --- !Downs
 
+alter table cart drop foreign key fk_cart_userid;
+drop index ix_cart_userid on cart;
+
+alter table cart drop foreign key fk_cart_productsizeid;
+drop index ix_cart_productsizeid on cart;
+
 alter table productcolor drop foreign key fk_productcolor_productid;
 drop index ix_productcolor_productid on productcolor;
 
@@ -104,6 +124,8 @@ drop index ix_products_productoccasion on products;
 
 alter table products drop foreign key fk_products_productmanufacturers;
 drop index ix_products_productmanufacturers on products;
+
+drop table if exists cart;
 
 drop table if exists categories;
 

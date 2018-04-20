@@ -1,11 +1,1710 @@
-2018-04-19 14:53:24,224 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
-2018-04-19 14:53:24,484 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
-2018-04-19 14:53:25,019 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-2 - Bean [models.productColorJunction] has no unique id set
-2018-04-19 14:53:25,124 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-2 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
-2018-04-19 14:53:25,446 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2018-04-20 07:43:29,863 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2018-04-20 07:43:30,285 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:43:31,043 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-2 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:43:31,162 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-2 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:43:31,662 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.cors.CORSFilter
 
-2018-04-19 14:53:25,524 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev)
+2018-04-20 07:43:31,739 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev)
+2018-04-20 07:43:56,895 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2018-04-20 07:43:57,117 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2018-04-20 07:43:57,127 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:43:57,129 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-4 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:43:57,201 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-4 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:43:57,347 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 07:43:57,357 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-04-20 07:45:17,765 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2018-04-20 07:45:17,875 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2018-04-20 07:45:17,883 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:45:17,928 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-4 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:45:17,932 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-4 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:45:18,077 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 07:45:18,093 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-04-20 07:46:26,677 [INFO] from application in application-akka.actor.default-dispatcher-10 - Shutting down connection pool.
+2018-04-20 07:46:26,778 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2018-04-20 07:46:26,788 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:46:26,789 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-2 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:46:26,826 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-2 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:46:26,922 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 07:46:26,930 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev)
+2018-04-20 07:46:56,368 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2018-04-20 07:46:56,483 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2018-04-20 07:46:56,498 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:46:56,500 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-4 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:46:56,568 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-4 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:46:56,699 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 07:46:56,707 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-04-20 07:47:17,165 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2018-04-20 07:47:17,271 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2018-04-20 07:47:17,288 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:47:17,289 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-4 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:47:17,336 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-4 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:47:17,463 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 07:47:17,472 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-04-20 07:48:55,152 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2018-04-20 07:48:55,259 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2018-04-20 07:48:55,268 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:48:55,303 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-3 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:48:55,312 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-3 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:48:55,396 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 07:48:55,401 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
+2018-04-20 07:49:20,364 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2018-04-20 07:49:20,450 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2018-04-20 07:49:20,466 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:49:20,501 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-4 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:49:20,505 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-4 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:49:20,591 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 07:49:20,596 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-04-20 07:49:42,957 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2018-04-20 07:49:43,045 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2018-04-20 07:49:43,058 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 07:49:43,058 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-4 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 07:49:43,095 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-4 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 07:49:43,206 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 07:49:43,213 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev)
+2018-04-20 08:02:05,497 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2018-04-20 08:02:05,600 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
+2018-04-20 08:02:05,612 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-3 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:02:05,614 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-3 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:02:05,654 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-3 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:02:05,762 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:02:05,767 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev)
+2018-04-20 08:02:05,805 [ERROR] from application in application-akka.actor.default-dispatcher-2 - 
+
+! @77k2p5hj1 - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[PersistenceException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?) ]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: javax.persistence.PersistenceException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?) 
+	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
+	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
+	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
+	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
+	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.executeQuery(DefaultBeanLoader.java:231)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.loadMany(DefaultBeanLoader.java:88)
+	at io.ebeaninternal.server.core.DefaultServer.loadMany(DefaultServer.java:492)
+	at io.ebeaninternal.server.loadcontext.DLoadManyContext$LoadBuffer.loadMany(DLoadManyContext.java:223)
+	at io.ebean.common.AbstractBeanCollection.lazyLoadCollection(AbstractBeanCollection.java:106)
+	at io.ebean.common.BeanList.init(BeanList.java:135)
+	at io.ebean.common.BeanList.add(BeanList.java:249)
+	at controllers.productController.getProductColorByID(productController.java:235)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 't0.product_color_product_color_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:357)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
+	... 64 common frames omitted
+2018-04-20 08:03:52,460 [INFO] from application in application-akka.actor.default-dispatcher-10 - Shutting down connection pool.
+2018-04-20 08:03:52,562 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-11 - Creating Pool for datasource 'default'
+2018-04-20 08:03:52,573 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-11 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:03:52,606 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-11 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:03:52,612 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-11 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:03:52,699 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-11 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:03:52,703 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-11 - Application started (Dev)
+2018-04-20 08:04:26,849 [INFO] from application in application-akka.actor.default-dispatcher-4 - Shutting down connection pool.
+2018-04-20 08:04:26,918 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-12 - Creating Pool for datasource 'default'
+2018-04-20 08:04:26,924 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-12 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:04:26,925 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-12 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:04:26,963 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-12 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:04:27,059 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-12 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:04:27,062 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-12 - Application started (Dev)
+2018-04-20 08:04:27,120 [ERROR] from application in application-akka.actor.default-dispatcher-7 - 
+
+! @77k2pdik1 - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at play.libs.Json.toJson(Json.java:77)
+	at controllers.productController.getProductColorByID(productController.java:236)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2656)
+	at play.libs.Json.toJson(Json.java:75)
+	... 54 common frames omitted
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:388)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:348)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:343)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:697)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:292)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2509)
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2651)
+	... 55 common frames omitted
+Caused by: javax.persistence.PersistenceException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?) 
+	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
+	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
+	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
+	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
+	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.executeQuery(DefaultBeanLoader.java:231)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.loadMany(DefaultBeanLoader.java:88)
+	at io.ebeaninternal.server.core.DefaultServer.loadMany(DefaultServer.java:492)
+	at io.ebeaninternal.server.loadcontext.DLoadManyContext$LoadBuffer.loadMany(DLoadManyContext.java:223)
+	at io.ebean.common.AbstractBeanCollection.lazyLoadCollection(AbstractBeanCollection.java:106)
+	at io.ebean.common.BeanList.init(BeanList.java:135)
+	at io.ebean.common.BeanList.size(BeanList.java:459)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:102)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:704)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:689)
+	... 59 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 't0.product_color_product_color_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:357)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
+	... 73 common frames omitted
+2018-04-20 08:04:56,877 [INFO] from application in application-akka.actor.default-dispatcher-4 - Shutting down connection pool.
+2018-04-20 08:04:56,973 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-9 - Creating Pool for datasource 'default'
+2018-04-20 08:04:56,989 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-9 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:04:56,991 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-9 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:04:57,031 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-9 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:04:57,119 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-9 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:04:57,121 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-9 - Application started (Dev)
+2018-04-20 08:04:57,188 [ERROR] from application in application-akka.actor.default-dispatcher-9 - 
+
+! @77k2pfb6j - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at play.libs.Json.toJson(Json.java:77)
+	at controllers.productController.getProductColorByID(productController.java:236)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:55)
+	at akka.http.scaladsl.util.FastFuture$.flatMap$extension(FastFuture.scala:26)
+	at play.core.server.AkkaHttpServer.runAction(AkkaHttpServer.scala:312)
+	at play.core.server.AkkaHttpServer.executeHandler(AkkaHttpServer.scala:261)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:201)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:106)
+	at akka.stream.impl.fusing.MapAsync$$anon$25.onPush(Ops.scala:1194)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:585)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:469)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:560)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:742)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:757)
+	at akka.actor.Actor.aroundReceive(Actor.scala:517)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:667)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:590)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:559)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	... 4 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2656)
+	at play.libs.Json.toJson(Json.java:75)
+	... 68 common frames omitted
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:388)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:348)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:343)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:697)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:292)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2509)
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2651)
+	... 69 common frames omitted
+Caused by: javax.persistence.PersistenceException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?) 
+	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
+	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
+	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
+	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
+	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.executeQuery(DefaultBeanLoader.java:231)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.loadMany(DefaultBeanLoader.java:88)
+	at io.ebeaninternal.server.core.DefaultServer.loadMany(DefaultServer.java:492)
+	at io.ebeaninternal.server.loadcontext.DLoadManyContext$LoadBuffer.loadMany(DLoadManyContext.java:223)
+	at io.ebean.common.AbstractBeanCollection.lazyLoadCollection(AbstractBeanCollection.java:106)
+	at io.ebean.common.BeanList.init(BeanList.java:135)
+	at io.ebean.common.BeanList.size(BeanList.java:459)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:102)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:704)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:689)
+	... 73 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 't0.product_color_product_color_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:357)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
+	... 87 common frames omitted
+2018-04-20 08:05:31,865 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2018-04-20 08:05:31,942 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-9 - Creating Pool for datasource 'default'
+2018-04-20 08:05:31,949 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-9 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:05:31,950 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-9 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:05:31,983 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-9 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:05:32,046 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-9 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:05:32,049 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-9 - Application started (Dev)
+2018-04-20 08:05:32,083 [ERROR] from application in application-akka.actor.default-dispatcher-5 - 
+
+! @77k2phamn - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at play.libs.Json.toJson(Json.java:77)
+	at controllers.productController.getProductColorByID(productController.java:236)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2656)
+	at play.libs.Json.toJson(Json.java:75)
+	... 54 common frames omitted
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:388)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:348)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:343)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:697)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:292)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2509)
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2651)
+	... 55 common frames omitted
+Caused by: javax.persistence.PersistenceException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?) 
+	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
+	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
+	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
+	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
+	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.executeQuery(DefaultBeanLoader.java:231)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.loadMany(DefaultBeanLoader.java:88)
+	at io.ebeaninternal.server.core.DefaultServer.loadMany(DefaultServer.java:492)
+	at io.ebeaninternal.server.loadcontext.DLoadManyContext$LoadBuffer.loadMany(DLoadManyContext.java:223)
+	at io.ebean.common.AbstractBeanCollection.lazyLoadCollection(AbstractBeanCollection.java:106)
+	at io.ebean.common.BeanList.init(BeanList.java:135)
+	at io.ebean.common.BeanList.size(BeanList.java:459)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:102)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:704)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:689)
+	... 59 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 't0.product_color_product_color_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:357)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
+	... 73 common frames omitted
+2018-04-20 08:05:57,406 [INFO] from application in application-akka.actor.default-dispatcher-4 - Shutting down connection pool.
+2018-04-20 08:05:57,479 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-13 - Creating Pool for datasource 'default'
+2018-04-20 08:05:57,484 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-13 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:05:57,522 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-13 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:05:57,526 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-13 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:05:57,586 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-13 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:05:57,589 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-13 - Application started (Dev)
+2018-04-20 08:05:57,639 [ERROR] from application in application-akka.actor.default-dispatcher-7 - 
+
+! @77k2pimhl - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at play.libs.Json.toJson(Json.java:77)
+	at controllers.productController.getProductColorByID(productController.java:239)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2656)
+	at play.libs.Json.toJson(Json.java:75)
+	... 54 common frames omitted
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:388)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:348)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:343)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:697)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:292)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2509)
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2651)
+	... 55 common frames omitted
+Caused by: javax.persistence.PersistenceException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?) 
+	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
+	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
+	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
+	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
+	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.executeQuery(DefaultBeanLoader.java:231)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.loadMany(DefaultBeanLoader.java:88)
+	at io.ebeaninternal.server.core.DefaultServer.loadMany(DefaultServer.java:492)
+	at io.ebeaninternal.server.loadcontext.DLoadManyContext$LoadBuffer.loadMany(DLoadManyContext.java:223)
+	at io.ebean.common.AbstractBeanCollection.lazyLoadCollection(AbstractBeanCollection.java:106)
+	at io.ebean.common.BeanList.init(BeanList.java:135)
+	at io.ebean.common.BeanList.size(BeanList.java:459)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:102)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:704)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:689)
+	... 59 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 't0.product_color_product_color_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:357)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
+	... 73 common frames omitted
+2018-04-20 08:07:34,543 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2018-04-20 08:07:34,682 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-15 - Creating Pool for datasource 'default'
+2018-04-20 08:07:34,686 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-15 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:07:34,711 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-15 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:07:34,713 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-15 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:07:34,792 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-15 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:07:34,795 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-15 - Application started (Dev)
+2018-04-20 08:07:34,829 [ERROR] from application in application-akka.actor.default-dispatcher-4 - 
+
+! @77k2poabo - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at play.libs.Json.toJson(Json.java:77)
+	at controllers.productController.getProductColorByID(productController.java:225)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2656)
+	at play.libs.Json.toJson(Json.java:75)
+	... 54 common frames omitted
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:388)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:348)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:343)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:697)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:292)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2509)
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2651)
+	... 55 common frames omitted
+Caused by: javax.persistence.PersistenceException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?) 
+	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
+	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
+	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
+	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
+	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.executeQuery(DefaultBeanLoader.java:231)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.loadMany(DefaultBeanLoader.java:88)
+	at io.ebeaninternal.server.core.DefaultServer.loadMany(DefaultServer.java:492)
+	at io.ebeaninternal.server.loadcontext.DLoadManyContext$LoadBuffer.loadMany(DLoadManyContext.java:223)
+	at io.ebean.common.AbstractBeanCollection.lazyLoadCollection(AbstractBeanCollection.java:106)
+	at io.ebean.common.BeanList.init(BeanList.java:135)
+	at io.ebean.common.BeanList.size(BeanList.java:459)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:102)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:704)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:689)
+	... 59 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 't0.product_color_product_color_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:357)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
+	... 73 common frames omitted
+2018-04-20 08:08:24,180 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2018-04-20 08:08:24,246 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-12 - Creating Pool for datasource 'default'
+2018-04-20 08:08:24,253 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-12 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:08:24,254 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-12 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:08:24,285 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-12 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:08:24,354 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-12 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:08:24,356 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-12 - Application started (Dev)
+2018-04-20 08:08:24,404 [ERROR] from application in application-akka.actor.default-dispatcher-4 - 
+
+! @77k3015kg - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at play.libs.Json.toJson(Json.java:77)
+	at controllers.productController.getProductColorByID(productController.java:225)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2656)
+	at play.libs.Json.toJson(Json.java:75)
+	... 54 common frames omitted
+Caused by: com.fasterxml.jackson.databind.JsonMappingException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?)  (through reference chain: models.productColor["productColorSizeList"])
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:388)
+	at com.fasterxml.jackson.databind.JsonMappingException.wrapWithPath(JsonMappingException.java:348)
+	at com.fasterxml.jackson.databind.ser.std.StdSerializer.wrapAndThrow(StdSerializer.java:343)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:697)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:292)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValue(ObjectMapper.java:2509)
+	at com.fasterxml.jackson.databind.ObjectMapper.valueToTree(ObjectMapper.java:2651)
+	... 55 common frames omitted
+Caused by: javax.persistence.PersistenceException: Query threw SQLException:Unknown column 't0.product_color_product_color_id' in 'field list' Bind values:[1] Query was:select t0.product_color_product_color_id, t0.productSizeID, t0.size, t0.quantity, t0.productColorID from productColorSize t0 where (t0.product_color_product_color_id) in (?) 
+	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
+	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
+	at io.ebeaninternal.server.query.CQueryEngine.translate(CQueryEngine.java:139)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.translate(DefaultOrmQueryEngine.java:38)
+	at io.ebeaninternal.server.core.OrmQueryRequest.translate(OrmQueryRequest.java:81)
+	at io.ebeaninternal.server.query.CQuery.createPersistenceException(CQuery.java:666)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:373)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.executeQuery(DefaultBeanLoader.java:231)
+	at io.ebeaninternal.server.core.DefaultBeanLoader.loadMany(DefaultBeanLoader.java:88)
+	at io.ebeaninternal.server.core.DefaultServer.loadMany(DefaultServer.java:492)
+	at io.ebeaninternal.server.loadcontext.DLoadManyContext$LoadBuffer.loadMany(DLoadManyContext.java:223)
+	at io.ebean.common.AbstractBeanCollection.lazyLoadCollection(AbstractBeanCollection.java:106)
+	at io.ebean.common.BeanList.init(BeanList.java:135)
+	at io.ebean.common.BeanList.size(BeanList.java:459)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:102)
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:704)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:689)
+	... 59 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 't0.product_color_product_color_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQueryWithOption(CQuery.java:357)
+	at io.ebeaninternal.server.query.CQuery.prepareBindExecuteQuery(CQuery.java:310)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:349)
+	... 73 common frames omitted
+2018-04-20 08:08:59,002 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2018-04-20 08:08:59,061 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-15 - Creating Pool for datasource 'default'
+2018-04-20 08:08:59,067 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-15 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:08:59,068 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-15 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:08:59,091 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-15 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:08:59,167 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-15 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:08:59,171 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-15 - Application started (Dev)
+2018-04-20 08:11:11,009 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2018-04-20 08:11:11,073 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-19 - Creating Pool for datasource 'default'
+2018-04-20 08:11:11,078 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-19 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:11:11,078 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-19 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:11:11,100 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-19 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:11:11,159 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-19 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:11:11,162 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-19 - Application started (Dev)
+2018-04-20 08:11:11,195 [ERROR] from application in application-akka.actor.default-dispatcher-6 - 
+
+! @77k30aidi - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'productId' in 'where clause']]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'productId' in 'where clause'
+	at io.ebeaninternal.server.query.CQueryBuilder.createNativeSqlTree(CQueryBuilder.java:407)
+	at io.ebeaninternal.server.query.CQueryBuilder.createSqlTree(CQueryBuilder.java:360)
+	at io.ebeaninternal.server.query.CQueryBuilder.buildQuery(CQueryBuilder.java:316)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:342)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1239)
+	at controllers.productController.getProductColorByID(productController.java:226)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'productId' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQueryBuilder.createNativeSqlTree(CQueryBuilder.java:386)
+	... 61 common frames omitted
+2018-04-20 08:11:27,900 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2018-04-20 08:11:27,965 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-19 - Creating Pool for datasource 'default'
+2018-04-20 08:11:27,969 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-19 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:11:27,991 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-19 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:11:27,994 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-19 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:11:28,049 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-19 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:11:28,051 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-19 - Application started (Dev)
+2018-04-20 08:11:28,067 [ERROR] from application in application-akka.actor.default-dispatcher-6 - 
+
+! @77k30bhcg - Internal server error, for (GET) [/api/product/color?productColorID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'productID' in 'where clause']]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'productID' in 'where clause'
+	at io.ebeaninternal.server.query.CQueryBuilder.createNativeSqlTree(CQueryBuilder.java:407)
+	at io.ebeaninternal.server.query.CQueryBuilder.createSqlTree(CQueryBuilder.java:360)
+	at io.ebeaninternal.server.query.CQueryBuilder.buildQuery(CQueryBuilder.java:316)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:342)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1239)
+	at controllers.productController.getProductColorByID(productController.java:226)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$18(Routes.scala:335)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'productID' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQueryBuilder.createNativeSqlTree(CQueryBuilder.java:386)
+	... 61 common frames omitted
+2018-04-20 08:11:40,369 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2018-04-20 08:11:40,437 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-21 - Creating Pool for datasource 'default'
+2018-04-20 08:11:40,443 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-21 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:11:40,444 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-21 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:11:40,477 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-21 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:11:40,532 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-21 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:11:40,534 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-21 - Application started (Dev)
+2018-04-20 08:13:53,106 [INFO] from application in application-akka.actor.default-dispatcher-10 - Shutting down connection pool.
+2018-04-20 08:13:53,167 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-24 - Creating Pool for datasource 'default'
+2018-04-20 08:13:53,172 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-24 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 08:13:53,172 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-24 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 08:13:53,193 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-24 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 08:13:53,246 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-24 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 08:13:53,248 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-24 - Application started (Dev)
+2018-04-20 10:36:21,570 [INFO] from application in application-akka.actor.default-dispatcher-7 - Shutting down connection pool.
+2018-04-20 10:36:21,660 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-25 - Creating Pool for datasource 'default'
+2018-04-20 10:36:21,667 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-25 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 10:36:21,697 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-25 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 10:36:21,700 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-25 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 10:36:21,771 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-25 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 10:36:21,778 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-25 - Application started (Dev)
+2018-04-20 10:36:21,821 [ERROR] from application in application-akka.actor.default-dispatcher-5 - 
+
+! @77k3jc81k - Internal server error, for (GET) [/api/product/addToCart?userID=8&productSizeID=1] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[PersistenceException: Error[Unknown column 'user_user_id' in 'field list']]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: javax.persistence.PersistenceException: Error[Unknown column 'user_user_id' in 'field list']
+	at io.ebean.config.dbplatform.SqlCodeTranslator.translate(SqlCodeTranslator.java:48)
+	at io.ebean.config.dbplatform.DatabasePlatform.translate(DatabasePlatform.java:195)
+	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.execute(DmlBeanPersister.java:83)
+	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.insert(DmlBeanPersister.java:49)
+	at io.ebeaninternal.server.core.PersistRequestBean.executeInsert(PersistRequestBean.java:1085)
+	at io.ebeaninternal.server.core.PersistRequestBean.executeNow(PersistRequestBean.java:661)
+	at io.ebeaninternal.server.core.PersistRequestBean.executeOrQueue(PersistRequestBean.java:707)
+	at io.ebeaninternal.server.persist.DefaultPersister.insert(DefaultPersister.java:456)
+	at io.ebeaninternal.server.persist.DefaultPersister.insert(DefaultPersister.java:406)
+	at io.ebeaninternal.server.persist.DefaultPersister.save(DefaultPersister.java:393)
+	at io.ebeaninternal.server.core.DefaultServer.save(DefaultServer.java:1578)
+	at io.ebeaninternal.server.core.DefaultServer.save(DefaultServer.java:1570)
+	at io.ebean.Model.save(Model.java:190)
+	at controllers.productController.addToCart(productController.java:297)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$20(Routes.scala:360)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.$anonfun$transformWith$3(FastFuture.scala:51)
+	... 12 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'user_user_id' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2450)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2371)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2355)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.type.DataBind.executeUpdate(DataBind.java:82)
+	at io.ebeaninternal.server.persist.dml.InsertHandler.execute(InsertHandler.java:122)
+	at io.ebeaninternal.server.persist.dml.DmlBeanPersister.execute(DmlBeanPersister.java:73)
+	... 64 common frames omitted
+2018-04-20 10:37:31,397 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2018-04-20 10:37:31,471 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-25 - Creating Pool for datasource 'default'
+2018-04-20 10:37:31,480 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-25 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 10:37:31,515 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-25 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 10:37:31,517 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-25 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 10:37:31,574 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-25 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 10:37:31,578 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-25 - Application started (Dev)
+2018-04-20 10:38:57,482 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-23 - 
+
+! @77k3jl474 - Internal server error, for (GET) [/api/product/addToCart?userID=8&productSizeID=1] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[missing return statement]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:34)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:33)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:28)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:24)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:51)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:51)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:76)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:413)
+	at play.runsupport.Reloader$$anon$5.run(Reloader.scala:51)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:56)
+	at play.runsupport.Reloader.reload(Reloader.scala:413)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:123)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:189)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:106)
+	at akka.stream.impl.fusing.MapAsync$$anon$25.onPush(Ops.scala:1194)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:585)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:469)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:560)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:742)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:757)
+	at akka.actor.Actor.aroundReceive(Actor.scala:517)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:667)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:590)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:559)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2018-04-20 10:39:18,928 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2018-04-20 10:39:19,004 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-29 - Creating Pool for datasource 'default'
+2018-04-20 10:39:19,010 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-29 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 10:39:19,039 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-29 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 10:39:19,041 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-29 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 10:39:19,100 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-29 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 10:39:19,104 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-29 - Application started (Dev)
+2018-04-20 10:44:13,292 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2018-04-20 10:44:13,347 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-33 - Creating Pool for datasource 'default'
+2018-04-20 10:44:13,355 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-33 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 10:44:13,356 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-33 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 10:44:13,389 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-33 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 10:44:13,476 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-33 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 10:44:13,479 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-33 - Application started (Dev)
+2018-04-20 10:44:43,439 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2018-04-20 10:44:43,517 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-31 - Creating Pool for datasource 'default'
+2018-04-20 10:44:43,523 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-31 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 10:44:43,524 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-31 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 10:44:43,556 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-31 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 10:44:43,631 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-31 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 10:44:43,636 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-31 - Application started (Dev)
+2018-04-20 11:13:40,292 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-40 - 
+
+! @77k3o9f8m - Internal server error, for (GET) [/api/product/getMyCart?userID=8] ->
+ 
+play.sbt.routes.RoutesCompilationException: Compilation error[HTTP Verb (GET, POST, ...), include (->), comment (#), or modifier line (+) expected]
+	at play.sbt.routes.RoutesCompiler$.$anonfun$compileRoutes$5(RoutesCompiler.scala:165)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:234)
+	at scala.collection.immutable.List.foreach(List.scala:389)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:234)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:227)
+	at scala.collection.immutable.List.map(List.scala:295)
+	at play.sbt.routes.RoutesCompiler$.compileRoutes(RoutesCompiler.scala:163)
+	at play.sbt.routes.RoutesCompiler$.$anonfun$compileRoutesFiles$1(RoutesCompiler.scala:141)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:44)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:42)
+	at sbt.std.Transform$$anon$4.work(System.scala:64)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:257)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:266)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:257)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:167)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:32)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-04-20 11:13:56,973 [INFO] from application in application-akka.actor.default-dispatcher-9 - Shutting down connection pool.
+2018-04-20 11:13:57,069 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-39 - Creating Pool for datasource 'default'
+2018-04-20 11:13:57,075 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-39 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 11:13:57,076 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-39 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 11:13:57,109 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-39 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 11:13:57,187 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-39 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 11:13:57,189 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-39 - Application started (Dev)
+2018-04-20 11:13:57,204 [ERROR] from application in application-akka.actor.default-dispatcher-6 - 
+
+! @77k3oagb7 - Internal server error, for (GET) [/api/product/getMyCart?userID=8] ->
+ 
+play.api.http.HttpErrorHandlerExceptions$$anon$1: Execution exception[[RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'shoesDatabase.carts' doesn't exist]]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:255)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:182)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:320)
+	at play.core.server.AkkaHttpServer$$anonfun$2.applyOrElse(AkkaHttpServer.scala:318)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:414)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:37)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:81)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:43)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: java.lang.RuntimeException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'shoesDatabase.carts' doesn't exist
+	at io.ebeaninternal.server.query.CQueryBuilder.createNativeSqlTree(CQueryBuilder.java:407)
+	at io.ebeaninternal.server.query.CQueryBuilder.createSqlTree(CQueryBuilder.java:360)
+	at io.ebeaninternal.server.query.CQueryBuilder.buildQuery(CQueryBuilder.java:316)
+	at io.ebeaninternal.server.query.CQueryEngine.findMany(CQueryEngine.java:342)
+	at io.ebeaninternal.server.query.DefaultOrmQueryEngine.findMany(DefaultOrmQueryEngine.java:126)
+	at io.ebeaninternal.server.core.OrmQueryRequest.findList(OrmQueryRequest.java:371)
+	at io.ebeaninternal.server.core.DefaultServer.findList(DefaultServer.java:1506)
+	at io.ebeaninternal.server.querydefn.DefaultOrmQuery.findList(DefaultOrmQuery.java:1239)
+	at controllers.productController.getmyCart(productController.java:316)
+	at router.Routes$$anonfun$routes$1.$anonfun$applyOrElse$22(Routes.scala:385)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:134)
+	at play.core.routing.HandlerInvokerFactory$$anon$3.resultCall(HandlerInvoker.scala:133)
+	at play.core.routing.HandlerInvokerFactory$JavaActionInvokerFactory$$anon$8$$anon$2$$anon$1.invocation(HandlerInvoker.scala:108)
+	at play.core.j.JavaAction$$anon$1.call(JavaAction.scala:88)
+	at play.http.DefaultActionCreator$1.call(DefaultActionCreator.java:31)
+	at play.core.j.JavaAction.$anonfun$apply$8(JavaAction.scala:138)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:655)
+	at scala.util.Success.$anonfun$map$1(Try.scala:251)
+	at scala.util.Success.map(Try.scala:209)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:289)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:29)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:29)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:60)
+	at play.core.j.HttpExecutionContext$$anon$2.run(HttpExecutionContext.scala:56)
+	at play.api.libs.streams.Execution$trampoline$.execute(Execution.scala:70)
+	at play.core.j.HttpExecutionContext.execute(HttpExecutionContext.scala:48)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:68)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete(Promise.scala:368)
+	at scala.concurrent.impl.Promise$KeptPromise$Kept.onComplete$(Promise.scala:367)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.onComplete(Promise.scala:375)
+	at scala.concurrent.impl.Promise.transform(Promise.scala:29)
+	at scala.concurrent.impl.Promise.transform$(Promise.scala:27)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.transform(Promise.scala:375)
+	at scala.concurrent.Future.map(Future.scala:289)
+	at scala.concurrent.Future.map$(Future.scala:289)
+	at scala.concurrent.impl.Promise$KeptPromise$Successful.map(Promise.scala:375)
+	at scala.concurrent.Future$.apply(Future.scala:655)
+	at play.core.j.JavaAction.apply(JavaAction.scala:138)
+	at play.api.mvc.Action.$anonfun$apply$2(Action.scala:96)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$4(Accumulator.scala:174)
+	at scala.util.Try$.apply(Try.scala:209)
+	at play.api.libs.streams.StrictAccumulator.$anonfun$mapFuture$3(Accumulator.scala:174)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at scala.Function1.$anonfun$andThen$1(Function1.scala:52)
+	at play.api.libs.streams.StrictAccumulator.run(Accumulator.scala:207)
+	at play.core.server.AkkaHttpServer.$anonfun$runAction$4(AkkaHttpServer.scala:314)
+	at akka.http.scaladsl.util.FastFuture$.strictTransform$1(FastFuture.scala:41)
+	at akka.http.scaladsl.util.FastFuture$.transformWith$extension1(FastFuture.scala:55)
+	at akka.http.scaladsl.util.FastFuture$.flatMap$extension(FastFuture.scala:26)
+	at play.core.server.AkkaHttpServer.runAction(AkkaHttpServer.scala:312)
+	at play.core.server.AkkaHttpServer.executeHandler(AkkaHttpServer.scala:261)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:201)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:106)
+	at akka.stream.impl.fusing.MapAsync$$anon$25.onPush(Ops.scala:1194)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:519)
+	at akka.stream.impl.fusing.GraphInterpreter.processEvent(GraphInterpreter.scala:482)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:378)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:585)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:469)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:560)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:742)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:757)
+	at akka.actor.Actor.aroundReceive(Actor.scala:517)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:515)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:667)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:590)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:559)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:257)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:224)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:234)
+	... 4 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'shoesDatabase.carts' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4074)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4006)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2468)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2629)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2719)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2318)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java)
+	at io.ebeaninternal.server.query.CQueryBuilder.createNativeSqlTree(CQueryBuilder.java:386)
+	... 75 common frames omitted
+2018-04-20 11:14:14,883 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2018-04-20 11:14:14,953 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-30 - Creating Pool for datasource 'default'
+2018-04-20 11:14:14,962 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-30 - Database [default] connected at jdbc:mysql://localhost/shoesDatabase
+2018-04-20 11:14:15,000 [WARN] from io.ebeaninternal.server.deploy.BeanDescriptorManager in play-dev-mode-akka.actor.default-dispatcher-30 - Bean [models.productColorJunction] has no unique id set
+2018-04-20 11:14:15,002 [WARN] from application in play-dev-mode-akka.actor.default-dispatcher-30 - application.conf @ file:/home/silverstar/javaProject/shoesstoreonline/target/scala-2.12/classes/application.conf: 11: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead
+2018-04-20 11:14:15,055 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-30 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.cors.CORSFilter
+
+2018-04-20 11:14:15,057 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-30 - Application started (Dev)

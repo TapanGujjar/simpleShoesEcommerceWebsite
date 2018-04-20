@@ -7,6 +7,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.databind.JsonNode;
 
+import models.cart;
 import models.categories;
 import models.company;
 import models.occasion;
@@ -15,6 +16,7 @@ import models.productColorJunction;
 import models.productColorSize;
 import models.products;
 import models.searchProduct;
+import models.users;
 import play.libs.Json;
 import play.mvc.Controller;
 import play.mvc.Result;
@@ -218,6 +220,29 @@ public class productController extends Controller {
 		
 	}
 	
+	public Result getProductColorByID() {
+		HashMap<String,String> map=new HashMap<>();
+		try {
+			int id=Integer.parseInt(request().getQueryString("productColorID"));
+			productColor element=productColor.productColorFinder.nativeSql("Select * from productColor where productColorID="+id).findUnique();
+			
+			List<productColorSize> sizeList=productColorSize.productColorSizeFinder.nativeSql("Select * from productColorSize where productColorID="+id).findList();
+			if(sizeList.size()<=0) {
+				throw new Exception("LLL");
+			}
+			map.put("success", "1");
+			map.put("productColor",Json.stringify(Json.toJson(element)));
+			map.put("sizeList",Json.stringify(Json.toJson(sizeList)));
+		}
+		catch(Exception e) {
+			map.put("success","-1");
+			map.put("message","No Result Found");
+			return badRequest(Json.toJson(map));
+		}
+		
+		return ok(Json.toJson(map));
+	}
+	
 	public Result searchForProduct() {
 		String searchQuery=request().getQueryString("term");
 		
@@ -254,6 +279,45 @@ public class productController extends Controller {
 
 				
 		return ok(Json.toJson(searchList));
+	}
+	
+	public Result addToCart() {
+		HashMap<String,String> map=new HashMap<String,String>();
+		try {
+		String productSizeID=request().getQueryString("productSizeID");
+		
+		String userID=request().getQueryString("userID");
+		
+		users user=users.userfind.byId(userID);
+		productColorSize element=productColorSize.productColorSizeFinder.byId(Integer.parseInt(productSizeID));
+		
+		cart cart=new cart();
+		cart.setUser(user);
+		cart.setElement(element);
+		
+		cart.save();
+		
+		map.put("success","1");
+		map.put("message","Successfully Added to the database");
+		
+		return ok(Json.toJson(map));
+		}
+		catch(Exception e){
+			map.put("success", "-1");
+			map.put("message","Error inserting to the database");;
+			return badRequest(Json.toJson(map));
+		}
+		
+		
+	}
+	
+	public Result getmyCart() {
+		String userID=request().getQueryString("userID");
+		List<cart> cartList=cart.cartFinder.nativeSql("Select * from cart where userID="+userID).findList();
+		
+		return ok(Json.toJson(cartList));
+		
+		
 	}
 	
 	

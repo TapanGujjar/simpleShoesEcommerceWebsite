@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/home/silverstar/javaProject/shoesstoreonline/conf/routes
-// @DATE:Thu Apr 19 03:20:11 EDT 2018
+// @DATE:Fri Apr 20 11:13:52 EDT 2018
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -69,7 +69,7 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:22
+    // @LINE:25
     def getAllCategories: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.productController.getAllCategories",
       """
@@ -99,7 +99,17 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:24
+    // @LINE:21
+    def addToCart: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.addToCart",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/product/addToCart"})
+        }
+      """
+    )
+  
+    // @LINE:27
     def getAllOccasions: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.productController.getAllOccasions",
       """
@@ -109,7 +119,27 @@ package controllers.javascript {
       """
     )
   
-    // @LINE:23
+    // @LINE:22
+    def getmyCart: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.getmyCart",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/product/getMyCart"})
+        }
+      """
+    )
+  
+    // @LINE:20
+    def getProductColorByID: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.productController.getProductColorByID",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/product/color"})
+        }
+      """
+    )
+  
+    // @LINE:26
     def getAllCompanies: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.productController.getAllCompanies",
       """
